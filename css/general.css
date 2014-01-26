@@ -1,0 +1,279 @@
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	background: #E0DEDF;
+	background-image:url(img/bg.png);
+}
+
+
+#table /* GENERAL FORMAT OF TABLES */
+{
+position:relative;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse:collapse;
+width:85%;
+box-shadow: 0px 0px 10px #888888;
+-box-shadow:0px 0px 10px #888888;
+-webkit-box-shadow: 0px 0px 10px #888888;
+}
+
+#table td, #table th 
+{
+font-size:1em;
+border:1px solid #347CB7;
+padding:3px 7px 2px 7px;
+background-color:#fff; 
+
+}
+#table th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#0688F7;
+color:#ffffff;
+}
+#table tr.alt td 
+{
+color:#000000;
+background-color:#77B8EF;
+}
+
+#table tr.clr td 
+{
+color:#fff;
+background-color:#aaa;
+}
+
+#table tr.clr td a 
+{
+color:#fff;
+}
+
+#table #user
+{
+position:fixed;
+top:215px;
+left:255px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:60%;
+border-collapse:collapse;
+}
+
+#data
+{
+	width: 50%;
+	height: 100%;
+	border:0;
+}
+#data td.label
+{
+	text-align:right;
+}
+
+#data td.data
+{
+	text-align:left;
+}
+
+#group
+{
+ background-color:#fff ;
+ width: 1000px; 
+ height: 100%; 
+ border: 0;
+ margin-left: 5%;
+ box-shadow: 0px 0px 10px #888888;
+-webkit-box-shadow: 0px 0px 10px #888888;
+}
+#group tr td
+{
+    margin: 20px;
+}
+
+p
+{
+font-size:1em;
+}
+
+textarea
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+div.data
+{
+	width:380px;
+}
+
+#table tr.button td 
+{
+border:none;
+}
+
+#box{
+	background: #fff;
+	width:  474px;
+	height: 185px;
+	border: 0;
+}
+
+label{
+	display: block;
+	float: left;
+	width: 200px;
+	text-align: right;
+	padding-right: 9px;
+
+}
+
+label.login
+{
+	font: 13px Verdana,Arial,Helvetica,sans-serif;
+}
+
+#username, #password{
+	display: block;
+	float: left;
+	width: 180px;
+	text-align: left;
+}
+
+#buttons{
+	padding-top: 6px;
+}
+
+textarea
+{
+border:solid;
+font-size: 18px;
+}
+
+#breadcrumb
+{
+	float:left;
+	position:relative;
+	top:+5px;
+}
+
+hr
+{
+	position:relative;
+	bottom:+20px;
+}
+
+#breadcrumb ul li{
+	font-size:12px; 
+   list-style-image: none;
+   display:inline;
+   padding: 0 3px 0 0;
+   margin: 3px 0 0 0;
+   
+}
+#breadcrumb ul{
+   margin:0;
+   padding:0;
+   list-style-type: none;
+   padding-left: 1em;
+  }
+  
+a:link, a:visited
+{
+	color:#0000ff;
+	text-decoration:none;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+a:hover, a:active
+{
+	color:#00007D;
+	text-decoration:underline;
+}
+
+
+
+#notice
+{
+	font-size:18px;
+	display:block;
+	background:#0688F7;
+	padding:25px;
+	border-radius:25px;
+        -moz-border-radius:25px;
+	border: solid 3px blue;
+	width:50%;
+	height:30px;
+    box-shadow: 0px 0px 10px #888888;
+    -webkit-box-shadow: 0px 0px 10px #888888;
+}
+
+#watermark
+{
+	width:100px;
+	height:50px;
+	position:fixed;
+	bottom:+0px;
+	right:+145px;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	transition:width 2s, height 2s;
+	-moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+	-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+	-o-transition:width 2s, height 2s, -o-transform 2s; /* Opera */
+           display:none;
+}
+
+#watermark:hover
+{
+	width:200px;
+	height:100px;
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.menu
+{
+border: 2px solid;
+background-color:#333;
+background-image:url(img/menu.jpg);
+border-radius:15px;
+-moz-border-radius:25px;
+position:relative;
+height:100px;
+box-shadow: 0px 0px 10px #888888;
+-moz-box-shadow:0px 0px 10px #888888;
+-webkit-box-shadow: 0px 0px 10px #888888;
+font-size:15px;
+text-shadow:0px 0px 10px #888;
+}
+
+.menu a
+{
+	color:#009;
+}
+
+#txt
+{
+border: 2px solid;
+background-color:#333;
+background-image:url(img/menu.jpg);
+border-radius:15px;
+text-align:center;
+padding:5px 5px 5px 5px;
+-moz-border-radius:25px;
+box-shadow: 0px 0px 10px #888888;
+-moz-box-shadow:0px 0px 10px #888888;
+-webkit-box-shadow: 0px 0px 10px #888888;
+font-size:15px;
+text-shadow:0px 0px 10px #888;
+    
+}
+
+h1
+{
+    color:#003;
+    text-shadow:2px 2px 5px #888;
+    
+}
